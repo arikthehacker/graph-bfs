@@ -1,0 +1,120 @@
+
+|||||||||||||||||||||||||||| geocache graph menu |||||||||||||||||||||||||||||||||
+1. test constructor        2. test Destructor        3. build adjacency list
+4. insert a vertex         5. insert an Edge         6. display adjacency list
+7. display nearest cache   8. test breadth-first     9. exit
+menu choice: graph initialized SUCCESS
+
+|||||||||||||||||||||||||||| geocache graph menu |||||||||||||||||||||||||||||||||
+1. test constructor        2. test Destructor        3. build adjacency list
+4. insert a vertex         5. insert an Edge         6. display adjacency list
+7. display nearest cache   8. test breadth-first     9. exit
+menu choice: number of vertices? : 
+insert vertex details [1]:
+|  coordinates: |  description: |  hint: 
+insert vertex details [2]:
+|  coordinates: |  description: |  hint: 
+insert vertex details [3]:
+|  coordinates: |  description: |  hint: adjacency list built SUCCESS.
+
+|||||||||||||||||||||||||||| geocache graph menu |||||||||||||||||||||||||||||||||
+1. test constructor        2. test Destructor        3. build adjacency list
+4. insert a vertex         5. insert an Edge         6. display adjacency list
+7. display nearest cache   8. test breadth-first     9. exit
+menu choice: 
+current geocaches:
+|  [0] A1 - start cache
+|  [1] B2 - river cache
+|  [2] C3 - hill cache
+
+connect geocaches by entering their index:
+|  starting geocache index: |  connecting geocache index: |  how far away is connecting index in miles?: edge added SUCCESS.
+
+|||||||||||||||||||||||||||| geocache graph menu |||||||||||||||||||||||||||||||||
+1. test constructor        2. test Destructor        3. build adjacency list
+4. insert a vertex         5. insert an Edge         6. display adjacency list
+7. display nearest cache   8. test breadth-first     9. exit
+menu choice: 
+current geocaches:
+|  [0] A1 - start cache
+|  [1] B2 - river cache
+|  [2] C3 - hill cache
+
+connect geocaches by entering their index:
+|  starting geocache index: |  connecting geocache index: |  how far away is connecting index in miles?: edge added SUCCESS.
+
+|||||||||||||||||||||||||||| geocache graph menu |||||||||||||||||||||||||||||||||
+1. test constructor        2. test Destructor        3. build adjacency list
+4. insert a vertex         5. insert an Edge         6. display adjacency list
+7. display nearest cache   8. test breadth-first     9. exit
+menu choice: 
+current geocaches:
+|  [0] A1 - start cache
+|  [1] B2 - river cache
+|  [2] C3 - hill cache
+
+connect geocaches by entering their index:
+|  starting geocache index: |  connecting geocache index: |  how far away is connecting index in miles?: edge added SUCCESS.
+
+|||||||||||||||||||||||||||| geocache graph menu |||||||||||||||||||||||||||||||||
+1. test constructor        2. test Destructor        3. build adjacency list
+4. insert a vertex         5. insert an Edge         6. display adjacency list
+7. display nearest cache   8. test breadth-first     9. exit
+menu choice: 
+displaying adjacency list...
+[0] A1 - start cache (hint: look low)
+|  -> connections:
+|     -> [2] C3 (4 miles away)
+|     -> [1] B2 (2.5 miles away)
+|
+[1] B2 - river cache (hint: near bridge)
+|  -> connections:
+|     -> [2] C3 (1.5 miles away)
+|     -> [0] A1 (2.5 miles away)
+|
+[2] C3 - hill cache (hint: under rock)
+|  -> connections:
+|     -> [1] B2 (1.5 miles away)
+|     -> [0] A1 (4 miles away)
+|
+
+adjacency list displayed SUCCESS.
+
+|||||||||||||||||||||||||||| geocache graph menu |||||||||||||||||||||||||||||||||
+1. test constructor        2. test Destructor        3. build adjacency list
+4. insert a vertex         5. insert an Edge         6. display adjacency list
+7. display nearest cache   8. test breadth-first     9. exit
+menu choice: 
+Plan a geocaching marathon! Enter your starting location and see nearby paths.
+
+ Handling our Breadth First Algorithm...
+
+current geocaches:
+|  [0] A1 - start cache
+|  [1] B2 - river cache
+|  [2] C3 - hill cache
+
+enter the starting geocache index for BFS traversal: 
+BFS geocache marathon order:
+|  [0] A1 - start cache [VISITED]
+|  [2] C3 - hill cache [VISITED]
+|  [1] B2 - river cache [VISITED]
+
+traversal path:
+[0] -> [2] -> [1]
+
+BFS marathon order with distances:
+|  [0] A1 - start cache (distances: 4 miles to [2], 2.5 miles to [1])
+|  [2] C3 - hill cache (distances: 1.5 miles to [1], 4 miles to [0])
+|  [1] B2 - river cache (distances: 1.5 miles to [2], 2.5 miles to [0])
+geocache BFS algorithm SUCCESS.
+
+|||||||||||||||||||||||||||| geocache graph menu |||||||||||||||||||||||||||||||||
+1. test constructor        2. test Destructor        3. build adjacency list
+4. insert a vertex         5. insert an Edge         6. display adjacency list
+7. display nearest cache   8. test breadth-first     9. exit
+menu choice: 
+                                   exiting geocacher  . 
+                                initiating cleanup    .
+
+
